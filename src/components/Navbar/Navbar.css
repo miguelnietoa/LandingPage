@@ -1,0 +1,57 @@
+.NavbarItems {
+  /*background: linear-gradient(
+    90deg,
+    rgb(110, 94, 254),
+    rgba(73, 63, 252, 1) 100%
+  );*/
+  background-color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border-style: ridge;
+  border-width: 1px;
+}
+
+.navbar-logo {
+  color: black;
+  justify-content: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 2rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  list-style: none;
+  width: 70vw;
+  justify-content: end;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: #02aff3;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-primary {
+  color: white;
+  font-weight: bold;
+  background-color: #02aff3;
+  border-radius: 40px;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+}
