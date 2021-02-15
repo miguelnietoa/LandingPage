@@ -25,16 +25,16 @@ export const MenuInfo = [
   {
     title: "Login",
     url: "#",
-    cName: "nav-links-primary",
+    cName: "nav-links-info",
   },
   {
     title: "About",
     url: "#",
-    cName: "nav-links-primary",
+    cName: "nav-links-info",
   },
   {
     title: "Blog",
     url: "#",
-    cName: "nav-links-primary",
+    cName: "nav-links-info",
   },
 ];
